@@ -2,10 +2,20 @@
 # 仅供 Quantumult X 使用，Clash 请使用原规则连接
 # 内容：OpenAi
 # 数量：6条
-# 维护日期：2023年5月30日
+# 维护日期：2023年6月15日
+
+
 DOMAIN-KEYWORD,openai, OpenAI
 DOMAIN-SUFFIX,ai.com, OpenAI
+DOMAIN-SUFFIX,auth0.com, OpenAI
 DOMAIN-SUFFIX,challenges.cloudflare.com, OpenAI
+DOMAIN-SUFFIX,client-api.arkoselabs.com, OpenAI
+DOMAIN-SUFFIX,events.statsigapi.net, OpenAI
+DOMAIN-SUFFIX,featuregates.org, OpenAI
+DOMAIN-SUFFIX,identrust.com, OpenAI
+DOMAIN-SUFFIX,intercom.io, OpenAI
+DOMAIN-SUFFIX,intercomcdn.com, OpenAI
 DOMAIN-SUFFIX,openai.com, OpenAI
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net, OpenAI
+DOMAIN-SUFFIX,sentry.io, OpenAI
 DOMAIN-SUFFIX,stripe.com, OpenAI
