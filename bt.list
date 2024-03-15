@@ -1,2 +1,2 @@
-IP-CIDR,119.237.128.27,no-resolve
-IP-CIDR,138.19.146.212,no-resolve
+IP-CIDR,119.237.128.27/32,no-resolve
+IP-CIDR,138.19.146.212/32,no-resolve
