@@ -1,0 +1,15 @@
+# Cursor：编辑器、AI 服务、CDN、扩展市场等
+# 参考官方文档：https://cursor.com/docs/enterprise/network-configuration
+# 防火墙/代理需放行：*.cursor.sh、*.cursor-cdn.com、*.cursorapi.com
+
+# 官网与文档（cursor.com）
+DOMAIN-SUFFIX,cursor.com
+
+# 核心后端与认证（含 api2、authenticate、authenticator 等子域）
+DOMAIN-SUFFIX,cursor.sh
+
+# 静态资源与下载 CDN
+DOMAIN-SUFFIX,cursor-cdn.com
+
+# 扩展市场等 API（含 marketplace.cursorapi.com）
+DOMAIN-SUFFIX,cursorapi.com
