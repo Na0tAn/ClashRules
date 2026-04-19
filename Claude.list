@@ -1,3 +1,21 @@
+# Claude / Anthropic：网页、Console(platform.claude.com)、API(api.anthropic.com) 等
+# 参考 v2fly/domain-list-community data/anthropic、社区 Claude 分流规则
+
+# 站点分析（claude.ai 使用）
 DOMAIN,cdn.usefathom.com
+
+# Anthropic 官方域名族（含 api / console / status / docs 子域）
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Anthropic 站点静态资源 CDN（Bunny）
+DOMAIN,servd-anthropic-website.b-cdn.net
+
+# Claude 网页端嵌入（客服/帮助 Widget，与主站同策略可减少加载失败）
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercomassets.com
